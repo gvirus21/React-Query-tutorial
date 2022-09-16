@@ -1,12 +1,13 @@
 import React from "react";
+import styles from '../styles/Character.module.css'
 
 const Character = ({ character }) => {
   return (
-    <div className="card">
-      <img className="image" src={character.image} alt="" />
-      <div className="text-container">
-        <h3 className="name-text">{character.name}</h3>
-        <p className="status-text">
+    <div className={styles.card}>
+      <img className={styles.image} src={character.image} alt="" />
+      <div className={styles.textContainer}>
+        <h3 className={styles.nameText}>{character.name}</h3>
+        <p className={styles.statusText}>
           {character.status} - {character.species}
         </p>
         <p className="title">

@@ -1,5 +1,7 @@
 import { useQuery } from 'react-query';
 import Character from './Character';
+import styles from '../styles/Character.module.css'
+
 
 const Characters = () => {
 
@@ -20,7 +22,7 @@ const Characters = () => {
     }
 
   return (
-    <div>
+    <div className={styles.cardContainer}>
         {
             characters.map((character) => {
                 return <Character character={character} />
