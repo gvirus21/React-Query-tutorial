@@ -26,3 +26,20 @@
 .statusText {
     font-size: 1rem;
 }
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30%;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.button {
+    width: 10rem;
+    height: 2rem;
+    margin: 0 1rem;
+    background-color: white;
+    color: #470d34;
+    border: none;
+}
